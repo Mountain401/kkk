@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>友邦人壽保險</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">友邦人壽</div>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#product">產品介紹</a></li>
+                <li><a href="#benefits">保障內容</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>友邦人壽滿扶保利率變動型終身保險</h1>
+            <p>全面保障，安心無憂</p>
+            <a href="#contact" class="btn">立即聯絡</a>
+        </div>
+    </section>
+
+    <section id="product" class="product">
+        <h2>產品介紹</h2>
+        <p>商品文號：107.12.01友邦字第1070800063號函備查</p>
+        <p>給付項目：身故保險金或喪葬費用保險金、特定意外身故保險金或喪葬費用保險金、意外失能保險金、失能扶助保險金、老年醫材購置補助保險金、祝壽保險金、豁免保險費。</p>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <h2>保障內容</h2>
+        <ul>
+            <li><strong>身故保險金或喪葬費用保險金</strong>：契約有效期間內身故，給付1倍總保險金額。</li>
+            <li><strong>特定意外身故保險金或喪葬費用保險金</strong>：因特定意外致身故，給付1倍或2倍總保險金額。</li>
+            <li><strong>意外失能保險金</strong>：依診斷確定當時之總保險金額給付。</li>
+            <li><strong>失能扶助保險金</strong>：每年給付18%總保險金額，最多20次。</li>
+            <li><strong>老年醫材購置補助保險金</strong>：按接受手術當時之總保險金額給付。</li>
+            <li><strong>豁免保險費</strong>：因失能豁免各期保費。</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>聯絡我們</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">電話號碼：</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">留言：</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">提交</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
